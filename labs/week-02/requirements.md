@@ -16,30 +16,25 @@ resources & practical knwoledge together. You can sign in with 3 different crede
 
 Four assets.
 
-| Asset | 
-|What it costs if this goes wrong|
+| Asset |What it costs if this goes wrong|
 
-| Application |
-| if the server/application is down so users will not do any type of work on it|
+| Application |if the server/application is down so users will not do any type of work on it|
 
-| Admin Account | 
-|As we know, Admin account is the most powerful asset of any organization because it has all rights rather than other users. if this account has been accessed by outsider that means whole system will be in danger|
+| Admin Account |As we know, Admin account is the most powerful asset of any organization because it has all rights rather than other users. if this account has been accessed by outsider that means whole system will be in danger|
 
-| Staff Login Credentials |  
-|if any outsiders access any staff login information, they can simply login & access the company plan/registers/guides. They might be change any important data on registers or they might be just kept silent to know all the future plans on Atrium|
+| Staff Login Credentials |if any outsiders access any staff login information, they can simply login & access the company plan/registers/guides. They might be change any important data on registers or they might be just kept silent to know all the future plans on Atrium|
 
-| Users Personal data (Email) | 
-|if any outsiders access staff directory & access their personal data, they can send phishy emails to all staff on daily basis if anyone just click on it may be mistakenly they can easily access Atrium & can do anything with platform|
+| Users Personal data (Email) |if any outsiders access staff directory & access their personal data, they can send phishy emails to all staff on daily basis if anyone just click on it may be mistakenly they can easily access Atrium & can do anything with platform|
 
 
 ## 3. The requirements
 
 ***Assistant***
-1.It is not allowed for any unauthorised person to access Atrium, its dashboard, staff pages, or any authenticated section of the app, because the system is meant only for valid staff and admin users.
-2.It is not allowed for any user to share, guess, steal, or reuse another person’s login credentials, because each account belongs to one authorised person and must be used only by that person.
+- It is not allowed for any unauthorised person to access Atrium, its dashboard, staff pages, or any authenticated section of the app, because the system is meant only for valid staff and admin users.
+- It is not allowed for any user to share, guess, steal, or reuse another person’s login credentials, because each account belongs to one authorised person and must be used only by that person.
 ***Myself***
-3.It is not allowed to any staff users to access & CRUD(create,read,update & delete) any file of others staff.
-4.Every user have a right to change their passwords under the Application Security Verifications Standard of OWASP.
+- It is not allowed to any staff users to access & CRUD(create,read,update & delete) any file of others staff.
+- Every user have a right to change their passwords under the Application Security Verifications Standard of OWASP.
 
 
 ## 4. One I rejected or rewrote
@@ -53,15 +48,14 @@ Four assets.
 Pick one requirement. Write the steps for a person who has never seen Atrium and
 cannot ask you anything.
 
-- The requirement: 
-- Sign in as:
-- Steps:
-- What result would mean the requirement is met:
-- What result would mean it is not met:
+- The requirement: Authorised person request to /dashboard & /staff
+- Sign in as: N / A 
+- Steps: 
+    1.Download & start Atrium by following instructions. 
+    2.Open new browser & type in address bar "http://localhost:9090/dashboard" without login.
+    3.Press Enter  
+- What result would mean the requirement is met: will not access the dashboard page, just redirect to login page
+- What result would mean it is not met: will access the dashboard page.
 
 ---
 
-## Optional, if you had time
-
-Your four requirements in order, most important first, with one sentence each on
-why it is in that position.
